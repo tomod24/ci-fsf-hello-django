@@ -27,7 +27,7 @@ SECRET_KEY = 'x((w5%b=beuxi2_r5-802*3k%sug*@5=)6ad7eu)psw0v(26s)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://fullstack-django-todo-app.herokuapp.com/']
 
 
 # Application definition
