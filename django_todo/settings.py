@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
+import os
 import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -26,7 +27,7 @@ SECRET_KEY = 'x((w5%b=beuxi2_r5-802*3k%sug*@5=)6ad7eu)psw0v(26s)'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fullstack-django-todo-app.herokuapp.com/']
+ALLOWED_HOSTS = ['fullstack-django-todo-app.herokuapp.com']
 
 
 # Application definition
